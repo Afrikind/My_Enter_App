@@ -10,7 +10,7 @@ const Donation = () => {
 
   const handleDonate = (event) => {
     event.preventDefault();
-    // Code to process donation
+    <h2>Please Enter Your Details: </h2>
   };
 
   return (

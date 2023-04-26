@@ -1,0 +1,97 @@
+/* Define global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+/* Define styles for header */
+header {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* Define styles for navigation bar */
+nav {
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Define styles for footer */
+footer {
+  background-color: #333333;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Define styles for buttons */
+button {
+  background-color: #ff6600;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}

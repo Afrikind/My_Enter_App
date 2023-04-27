@@ -1,0 +1,479 @@
+/* For the home Section */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    height: 100vh;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .home p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .home-button {
+    background-color: #FF5733;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #E74C3C;
+  }
+  
+  .home img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  
+  .feature h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* Leagues Section */
+
+  .leagues {
+    margin-top: 50px;
+  }
+  
+  .leagues h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .leagues ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .leagues li {
+    margin: 20px;
+  }
+  
+  .leagues img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .leagues span {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* donation Section */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form textarea {
+    height: 10rem;
+  }
+  
+  .form button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #023e8a;
+  }
+  
+  /* Social  Media Section */
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .facebook-icon {
+    color: #3b5998;
+    font-size: 30px;
+  }
+  
+  .twitter-icon {
+    color: #1da1f2;
+    font-size: 30px;
+  }
+  
+  .instagram-icon {
+    color: #c13584;
+    font-size: 30px;
+  }
+  
+  .linkedin-icon {
+    color: #0077b5;
+    font-size: 30px;
+  }
+
+  /* Fantasy Sports Section */
+
+  .fantasy-sports {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .team-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .team-buttons {
+    display: flex;
+    gap: 10px;
+  }  
+
+  /* music section */
+
+  .music-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .song-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .song-title {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .song-artist {
+    font-style: italic;
+    color: #666;
+  }
+
+  /* for chat section */
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+    overflow-y: auto;
+  }
+  
+  .chat-message {
+    background-color: #f1f0f0;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* ScheduleCalendar Section */
+
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .calendar-wrapper {
+    margin-top: 30px;
+  }
+  
+  .selected-date {
+    margin-top: 30px;
+  }
+  
+  .selected-date h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .selected-date p {
+    font-size: 16px;
+  }
+  
+  /* NewsAnalysis Section */
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .news-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .news-description {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  .news-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .news-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* About Section */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  max-width: 800px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+.about-content img {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.about-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-button:hover {
+  background-color: #0062cc;
+}

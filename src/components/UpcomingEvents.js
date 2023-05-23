@@ -8,24 +8,24 @@ function UpcomingEvents() {
       <div className="event-container">
         <div className="event-card">
           <div className="event-image">
-            <img src="https://example.com/event1.jpg" alt="Event 1" />
+            <img src="" alt="Event 1" />
           </div>
           <div className="event-details">
             <h3>Basketball Game</h3>
             <p>Location: Basketball Court</p>
             <p>Date: may 10th, 2023</p>
-            <button className="event-register-btn">Register Now</button>
+            <button className="event-register-btn">RegisterNow</button>
           </div>
         </div>
         <div className="event-card">
           <div className="event-image">
-            <img src="https://example.com/event2.jpg" alt="Event 2" />
+            <img src="" alt="Event 2" />
           </div>
           <div className="event-details">
             <h3>Soccer Tournament</h3>
             <p>Location: Football Field</p>
             <p>Date: may 15th, 2023</p>
-            <button className="event-register-btn">Register Now</button>
+            <button className="event-register-btn">RegisterNow</button>
           </div>
         </div>
         <div className="event-card">

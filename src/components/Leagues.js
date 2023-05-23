@@ -12,17 +12,17 @@ function Leagues() {
   ]);
 
   
-  // const handleInputChange = (event) => {
-  //   setLeagues(event.target.value);
-  // };
+  const handleInputChange = (event) => {
+    setLeagues(event.target.value);
+  };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   if (Leagues.trim() !== '') {
-  //     setLeagues([...Leagues, Leagues.trim()]);
-  //     setLeagues('');
-  //   }
-  // };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (Leagues.trim() !== '') {
+      setLeagues([...Leagues, Leagues.trim()]);
+      setLeagues('');
+    }
+  };
 
   return (
     <div className="leagues">
@@ -37,6 +37,8 @@ function Leagues() {
           </li>
         ))}
       </ul>
+      <button onClick={handleInputChange}>Check</button>
+      <button onClick={handleSubmit}>Continue</button>
     </div>
   );
 }

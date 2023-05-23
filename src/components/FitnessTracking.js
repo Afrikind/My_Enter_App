@@ -29,6 +29,24 @@ const FitnessTracking = () => {
     ],
   });
 
+  const updateData = () => {
+    const newData = {
+      ...data, 
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'], 
+      datasets: [
+        ...data.datasets, 
+        {
+          label: 'New Dataset',
+          data: [2000, 1800, 2200, 2500, 2700, 3000, 2800, 2900], 
+          fill: false,
+          borderColor: 'rgb(128, 0, 128)',
+          tension: 0.1,
+        },
+      ],
+    };
+
+    setData(newData); 
+  };
   const options = {
     scales: {
       yAxes: [
@@ -39,7 +57,7 @@ const FitnessTracking = () => {
         },
       ],
     },
-  };
+  }
 
   return (
     <div>
@@ -47,8 +65,8 @@ const FitnessTracking = () => {
       <div className="chart-container">
         <Line data={data} options={options} />
       </div>
+      <button onClick={updateData}>Update Data</button> 
     </div>
   );
 };
-
 export default FitnessTracking;

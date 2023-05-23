@@ -4,15 +4,15 @@ function Header({ setPage }) {
   return (
     <nav>
       <ul>
-        <li><button onClick={() => setPage('home')}>Home</button></li>
+        <li><button onClick={() => setPage('/')}>Home</button></li>
         <li>
-          <button onClick={() => setPage('live-streaming')}>
+          {/* <button onClick={() => setPage('live-streaming')}>
             Live Streaming
-          </button>
+          </button> */}
         </li>
         <li>
-          <button onClick={() => setPage('live-scores')}>
-            Live Scores
+          <button onClick={() => setPage('HallOfFame')}>
+            Hall of Fame
           </button>
         </li>
         <li>

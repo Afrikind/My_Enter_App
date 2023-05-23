@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/halloffame.css';
 import axios from 'axios';
 
 class HallOfFame extends React.Component {
